@@ -1,82 +1,342 @@
-[06:19:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[06:19:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-84-main@bac3da1 (2025-10-20T02:11:40Z) for Minecraft 1.21.10
-[06:19:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:19:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[06:19:55] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[06:20:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:20:09] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[06:20:09] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[06:20:12] [ServerMain/INFO]: No existing world data, creating new world
-[06:20:13] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 17770ms.
-[06:20:15] [ServerMain/INFO]: Loaded 1461 recipes
-[06:20:15] [ServerMain/INFO]: Loaded 1574 advancements
-[06:20:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[06:20:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 988.0ms
-[06:20:16] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[06:20:16] [Server thread/INFO]: Loading properties
-[06:20:16] [Server thread/INFO]: This server is running Paper version 1.21.10-84-main@bac3da1 (2025-10-20T02:11:40Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[06:20:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:20:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:20:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:20:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[06:20:18] [Server thread/INFO]: Default game type: SURVIVAL
-[06:20:18] [Server thread/INFO]: Generating keypair
-[06:20:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:20:19] [Server thread/INFO]: Using epoll channel type
-[06:20:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:20:19] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:20:19] [Server thread/INFO]: Preparing level "world"
-[06:20:19] [Server thread/INFO]: Selecting spawn point for world 'minecraft:overworld'...
-[06:20:31] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_nether'...
-[06:20:33] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_end'...
-[06:20:33] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[06:20:33] [Server thread/INFO]: Preparing spawn area: 100%
-[06:20:34] [Server thread/INFO]: Prepared spawn area in 14099 ms
-[06:20:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[06:20:34] [Server thread/INFO]: Preparing spawn area: 100%
-[06:20:34] [Server thread/INFO]: Prepared spawn area in 2391 ms
-[06:20:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[06:20:34] [Server thread/INFO]: Preparing spawn area: 100%
-[06:20:34] [Server thread/INFO]: Prepared spawn area in 641 ms
-[06:20:34] [Server thread/INFO]: Done preparing level "world" (14.874s)
-[06:20:34] [Server thread/INFO]: [spark] Starting background profiler...
-[06:20:34] [Server thread/INFO]: Running delayed init tasks
-[06:20:34] [Server thread/INFO]: Done (42.785s)! For help, type "help"
-[06:20:34] [Server thread/INFO]: *************************************************************************************
-[06:20:34] [Server thread/INFO]: This is the first time you're starting this server.
-[06:20:34] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[06:20:34] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[06:20:34] [Server thread/INFO]: *************************************************************************************
-[06:20:45] [Server thread/INFO]: Stopping the server
-[06:20:45] [Server thread/INFO]: Stopping server
-[06:20:45] [Server thread/INFO]: Saving players
-[06:20:45] [Server thread/INFO]: Saving worlds
-[06:20:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[06:20:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[06:20:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[06:20:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[06:20:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:20:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:20:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:20:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:20:45] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[06:20:45] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[06:20:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[06:20:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:53:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[07:53:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-84-main@bac3da1 (2025-10-20T02:11:40Z) for Minecraft 1.21.10
+[07:53:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:53:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[07:53:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.8.2)
+[07:53:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:53:56] [ServerMain/ERROR]: Couldn't load file/BedXP Datapack 1.21.9 pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[07:53:56] [ServerMain/ERROR]: Couldn't load file/Inventory Keeper overlays metadata: Overlay "data" declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[07:54:02] [ServerMain/INFO]: Loaded 1462 recipes
+[07:54:02] [ServerMain/INFO]: Loaded 1579 advancements
+[07:54:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:54:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 894.6ms
+[07:54:04] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[07:54:04] [Server thread/INFO]: Loading properties
+[07:54:04] [Server thread/INFO]: This server is running Paper version 1.21.10-84-main@bac3da1 (2025-10-20T02:11:40Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[07:54:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:54:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:54:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:54:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:54:09] [Server thread/INFO]: Default game type: SURVIVAL
+[07:54:09] [Server thread/INFO]: Generating keypair
+[07:54:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:54:09] [Server thread/INFO]: Using epoll channel type
+[07:54:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:54:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:54:09] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.8.2
+[07:54:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:54:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.8.2
+[07:54:13] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.10.
+[07:54:13] [Server thread/WARN]: [SkinsRestorer] "SkinsRestorer v15.8.2" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "void net.skinsrestorer.shadow.cloud.bukkit.CloudBukkitListener.onPlayerLogin(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls].
+[07:54:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:54:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:54:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:54:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:54:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:54:14] [Server thread/INFO]: Preparing level "world"
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.8.2
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: cf773a3
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:54:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[07:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[07:54:16] [Server thread/INFO]: Prepared spawn area in 2 ms
+[07:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[07:54:16] [Server thread/INFO]: Preparing spawn area: 100%
+[07:54:16] [Server thread/INFO]: Prepared spawn area in 3 ms
+[07:54:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[07:54:16] [Server thread/INFO]: Prepared spawn area in 2 ms
+[07:54:16] [Server thread/INFO]: Done preparing level "world" (2.257s)
+[07:54:17] [Server thread/INFO]: [spark] Starting background profiler...
+[07:54:18] [Server thread/INFO]: Running delayed init tasks
+[07:54:18] [Server thread/INFO]: Done (35.441s)! For help, type "help"
+[07:54:30] [User Authenticator #0/INFO]: UUID of player Drakiii is 127853c7-a9bb-3ebf-8c81-c3025b9ed859
+[07:54:37] [Server thread/INFO]: Drakiii joined the game
+[07:54:38] [Server thread/INFO]: Drakiii[/172.17.0.1:47860] logged in with entity id 1 at ([world]-505.2066407383808, 68.0, -2.728983545531353)
+[07:55:15] [User Authenticator #0/INFO]: UUID of player theHULK is 57880c86-f36c-3a31-8f71-b7949fa31427
+[07:55:16] [Server thread/INFO]: theHULK joined the game
+[07:55:16] [Server thread/INFO]: theHULK[/172.17.0.1:34036] logged in with entity id 297 at ([world]-546.0011252152337, 67.0, -2.8411868625761967)
+[07:57:08] [User Authenticator #1/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[07:57:08] [Server thread/INFO]: bankaionma772 joined the game
+[07:57:08] [Server thread/INFO]: bankaionma772[/172.17.0.1:57406] logged in with entity id 526 at ([world]-506.8020778368119, 67.84375002384186, -17.825520570309262)
+[07:59:14] [Server thread/INFO]: bankaionma772 was slain by Drakiii
+[08:09:57] [Server thread/INFO]: bankaionma772 issued server command: /msg theHULK wither skeleton skull ap
+[08:10:19] [Server thread/INFO]: Made theHULK a server operator
+[08:10:42] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:wither_skeleton_skull 1
+[08:10:42] [Server thread/INFO]: bankaionma772 has made the advancement [Spooky Scary Skeleton]
+[08:10:42] [Server thread/INFO]: [theHULK: Gave 1 [Wither Skeleton Skull] to bankaionma772]
+[08:10:55] [Server thread/INFO]: bankaionma772 issued server command: /msg theHULK thx
+[08:10:55] [Server thread/INFO]: theHULK issued server command: /msg bankaionma772 joo
+[08:16:29] [Server thread/INFO]: bankaionma772 lost connection: Disconnected
+[08:16:29] [Server thread/INFO]: bankaionma772 left the game
+[08:22:26] [User Authenticator #2/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[08:22:27] [Server thread/INFO]: bankaionma772 joined the game
+[08:22:27] [Server thread/INFO]: bankaionma772[/172.17.0.1:39848] logged in with entity id 6123 at ([world]-523.0605634374815, 67.84375002384186, -13.810650784338788)
+[08:30:04] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:green_dye 20
+[08:30:04] [Server thread/INFO]: [theHULK: Gave 20 [Green Dye] to bankaionma772]
+[08:30:15] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:white_dye 20
+[08:30:15] [Server thread/INFO]: [theHULK: Gave 20 [White Dye] to bankaionma772]
+[08:33:30] [Server thread/INFO]: theHULK lost connection: Disconnected
+[08:33:30] [Server thread/INFO]: theHULK left the game
+[08:35:33] [User Authenticator #3/INFO]: UUID of player theHULK is 57880c86-f36c-3a31-8f71-b7949fa31427
+[08:35:33] [Server thread/INFO]: theHULK joined the game
+[08:35:33] [Server thread/INFO]: theHULK[/172.17.0.1:34816] logged in with entity id 9184 at ([world]-512.9205695304361, 73.0, -18.30000001192093)
+[08:46:49] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:vine 2
+[08:46:49] [Server thread/INFO]: [theHULK: Gave 2 [Vines] to bankaionma772]
+[08:48:45] [Server thread/INFO]: Drakiii was slain by bankaionma772
+[08:50:11] [Server thread/INFO]: bankaionma772 lost connection: Disconnected
+[08:50:11] [Server thread/INFO]: bankaionma772 left the game
+[08:50:11] [Server thread/INFO]: Drakiii lost connection: Disconnected
+[08:50:11] [Server thread/INFO]: Drakiii left the game
+[08:50:44] [User Authenticator #4/INFO]: UUID of player Drakiii is 127853c7-a9bb-3ebf-8c81-c3025b9ed859
+[08:50:47] [Server thread/INFO]: Drakiii joined the game
+[08:50:47] [Server thread/INFO]: Drakiii[/172.17.0.1:46100] logged in with entity id 11016 at ([world]-505.7777549100256, 67.0, -11.237500011920929)
+[08:55:59] [User Authenticator #5/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[08:56:00] [Server thread/INFO]: bankaionma772 joined the game
+[08:56:00] [Server thread/INFO]: bankaionma772[/172.17.0.1:35414] logged in with entity id 11542 at ([world]-503.45455737595546, 68.0, -4.527432078199794)
+[08:56:31] [Server thread/INFO]: Drakiii was kicked due to keepalive timeout!
+[08:56:31] [Server thread/INFO]: Drakiii lost connection: Timed out
+[08:56:31] [Server thread/INFO]: Drakiii left the game
+[08:56:39] [User Authenticator #5/INFO]: UUID of player Drakiii is 127853c7-a9bb-3ebf-8c81-c3025b9ed859
+[08:56:41] [Server thread/INFO]: Drakiii joined the game
+[08:56:41] [Server thread/INFO]: Drakiii[/172.17.0.1:56746] logged in with entity id 11627 at ([world]-532.3758185388906, 70.0, -69.29772348933619)
+[08:57:58] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:light_blue_banner 2
+[08:57:58] [Server thread/INFO]: [theHULK: Gave 2 [Light Blue Banner] to bankaionma772]
+[09:04:34] [Server thread/INFO]: bankaionma772 fell from a high place
+[09:04:51] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:water_bucket
+[09:04:51] [Server thread/INFO]: [theHULK: Gave 1 [Water Bucket] to bankaionma772]
+[09:05:01] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[09:05:19] [Server thread/INFO]: bankaionma772 fell from a high place
+[09:06:10] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:water_bucket
+[09:06:10] [Server thread/INFO]: [theHULK: Gave 1 [Water Bucket] to bankaionma772]
+[09:07:29] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:cooked_porkchop 40
+[09:07:29] [Server thread/INFO]: [theHULK: Gave 40 [Cooked Porkchop] to bankaionma772]
+[09:08:00] [Server thread/INFO]: bankaionma772 was blown up by Creeper
+[09:08:12] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:water_bucket
+[09:08:12] [Server thread/INFO]: [theHULK: Gave 1 [Water Bucket] to bankaionma772]
+[09:08:24] [Server thread/INFO]: theHULK issued server command: /effect give bankaionma772 minecraft:night_vision infinite
+[09:08:24] [Server thread/INFO]: [theHULK: Applied effect Night Vision to bankaionma772]
+[09:08:36] [Server thread/INFO]: bankaionma772 fell from a high place
+[09:08:46] [Server thread/INFO]: theHULK issued server command: /effect give bankaionma772 minecraft:night_vision infinite
+[09:08:46] [Server thread/INFO]: [theHULK: Applied effect Night Vision to bankaionma772]
+[09:08:48] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:water_bucket
+[09:08:48] [Server thread/INFO]: [theHULK: Gave 1 [Water Bucket] to bankaionma772]
+[09:10:08] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:cooked_porkchop 40
+[09:10:08] [Server thread/INFO]: [theHULK: Gave 40 [Cooked Porkchop] to bankaionma772]
+[09:13:17] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[09:13:58] [Server thread/INFO]: theHULK issued server command: /give @a minecraft:horse_spawn_egg 64
+[09:13:58] [Server thread/INFO]: [theHULK: Gave 64 [Horse Spawn Egg] to 3]
+[09:19:21] [Server thread/INFO]: theHULK lost connection: Timed out
+[09:19:21] [Server thread/INFO]: theHULK left the game
+[09:21:51] [Server thread/INFO]: bankaionma772 was kicked due to keepalive timeout!
+[09:21:51] [Server thread/INFO]: bankaionma772 lost connection: Timed out
+[09:21:51] [Server thread/INFO]: bankaionma772 left the game
+[09:22:46] [User Authenticator #6/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[09:22:55] [Server thread/INFO]: bankaionma772 joined the game
+[09:22:55] [Server thread/INFO]: bankaionma772[/172.17.0.1:42882] logged in with entity id 14705 at ([world]-534.1234130843281, 66.0, -11.939327296770323)
+[09:23:59] [Server thread/INFO]: bankaionma772 lost connection: Disconnected
+[09:23:59] [Server thread/INFO]: bankaionma772 left the game
+[09:24:15] [User Authenticator #7/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[09:24:30] [Server thread/INFO]: bankaionma772 (369f1b74-c3d9-33ca-9155-832c73689cd0) lost connection: Disconnected
+[09:24:41] [User Authenticator #7/INFO]: UUID of player theHULK is 57880c86-f36c-3a31-8f71-b7949fa31427
+[09:24:42] [Server thread/INFO]: theHULK joined the game
+[09:24:42] [Server thread/INFO]: theHULK[/172.17.0.1:39432] logged in with entity id 14877 at ([world]-514.3307259919171, 67.0, -13.16449173376789)
+[09:24:53] [User Authenticator #7/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[09:24:53] [Server thread/INFO]: bankaionma772 joined the game
+[09:24:53] [Server thread/INFO]: bankaionma772[/172.17.0.1:49654] logged in with entity id 14891 at ([world]-540.1795539690811, 66.5625, -10.156658804389656)
+[09:26:59] [Server thread/INFO]: bankaionma772 was kicked due to keepalive timeout!
+[09:26:59] [Server thread/INFO]: bankaionma772 lost connection: Timed out
+[09:26:59] [Server thread/INFO]: bankaionma772 left the game
+[09:27:11] [User Authenticator #8/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[09:27:12] [Server thread/INFO]: bankaionma772 joined the game
+[09:27:12] [Server thread/INFO]: bankaionma772[/172.17.0.1:46646] logged in with entity id 15153 at ([world]-484.5937274024187, 79.70285002231599, 15.58698703344111)
+[09:28:14] [Server thread/INFO]: theHULK lost connection: Disconnected
+[09:28:14] [Server thread/INFO]: theHULK left the game
+[09:28:55] [User Authenticator #9/INFO]: UUID of player theHULK is 57880c86-f36c-3a31-8f71-b7949fa31427
+[09:28:56] [Server thread/INFO]: theHULK joined the game
+[09:28:56] [Server thread/INFO]: theHULK[/172.17.0.1:44006] logged in with entity id 15314 at ([world]-511.45914870690274, 68.0, -15.555748532586454)
+[09:29:03] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[09:31:34] [Server thread/INFO]: Drakiii was shot by bankaionma772
+[09:32:12] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[09:57:44] [Server thread/INFO]: theHULK issued server command: /effect clear @a
+[09:57:44] [Server thread/INFO]: [theHULK: Removed every effect from 3 targets]
+[09:59:48] [Server thread/INFO]: theHULK has made the advancement [Take Aim]
+[10:06:01] [Server thread/INFO]: Drakiii was slain by theHULK
+[10:16:05] [Server thread/INFO]: theHULK was shot by bankaionma772
+[10:16:08] [Async Chat Thread - #3/INFO]: [Not Secure] <bankaionma772> ggs
+[10:17:22] [Server thread/INFO]: bankaionma772 was slain by Iron Golem
+[10:19:10] [Server thread/INFO]: bankaionma772 was slain by Iron Golem
+[10:20:13] [Server thread/INFO]: bankaionma772 lost connection: Disconnected
+[10:20:13] [Server thread/INFO]: bankaionma772 left the game
+[10:20:40] [Server thread/INFO]: Drakiii was shot by theHULK
+[10:22:16] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[10:23:23] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[10:33:50] [Server thread/INFO]: Drakiii was kicked due to keepalive timeout!
+[10:33:50] [Server thread/INFO]: Drakiii lost connection: Timed out
+[10:33:50] [Server thread/INFO]: Drakiii left the game
+[10:34:15] [Server thread/INFO]: theHULK lost connection: Disconnected
+[10:34:15] [Server thread/INFO]: theHULK left the game
+[10:36:55] [User Authenticator #10/INFO]: UUID of player theHULK is 57880c86-f36c-3a31-8f71-b7949fa31427
+[10:36:56] [Server thread/INFO]: theHULK joined the game
+[10:36:56] [Server thread/INFO]: theHULK[/172.17.0.1:57310] logged in with entity id 24703 at ([world]-506.6826207788566, 73.9375, 10.442740873231907)
+[10:37:12] [User Authenticator #10/INFO]: UUID of player Drakiii is 127853c7-a9bb-3ebf-8c81-c3025b9ed859
+[10:37:13] [Server thread/INFO]: Drakiii joined the game
+[10:37:13] [Server thread/INFO]: Drakiii[/172.17.0.1:44164] logged in with entity id 24938 at ([world]-495.20843524857355, 68.9375, 15.669405254836027)
+[10:40:27] [User Authenticator #11/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[10:40:28] [Server thread/INFO]: bankaionma772 joined the game
+[10:40:28] [Server thread/INFO]: bankaionma772[/172.17.0.1:44370] logged in with entity id 25578 at ([world]-525.5702210321517, 67.0, -4.855606810579048)
+[10:40:52] [Server thread/INFO]: bankaionma772 was slain by Iron Golem
+[10:42:00] [Server thread/INFO]: Drakiii was slain by bankaionma772
+[10:50:04] [Server thread/INFO]: theHULK was doomed to fall by Iron Golem
+[10:51:37] [Server thread/INFO]: bankaionma772 has made the advancement [Cover Me with Diamonds]
+[10:53:51] [Server thread/INFO]: Drakiii has made the advancement [What a Deal!]
+[10:53:52] [Server thread/INFO]: Drakiii has made the advancement [Cover Me with Diamonds]
+[10:54:56] [Server thread/INFO]: theHULK has made the advancement [Cover Me with Diamonds]
+[10:56:05] [Server thread/INFO]: theHULK issued server command: /give bankaionma772 minecraft:spruce_sapling 8
+[10:56:05] [Server thread/INFO]: [theHULK: Gave 8 [Spruce Sapling] to bankaionma772]
+[11:02:51] [Server thread/INFO]: theHULK issued server command: /locate structure minecraft:pillager_outpost
+[11:02:51] [Server thread/INFO]: Locating element minecraft:pillager_outpost took 430 ms
+[11:06:31] [Server thread/INFO]: bankaionma772 issued server command: /msg theHULK take mine hu jiya no lai lau
+[11:08:51] [Server thread/INFO]: theHULK has made the advancement [Best Friends Forever]
+[11:11:20] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:11:30] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:13:07] [Server thread/INFO]: theHULK issued server command: /time set day
+[11:13:07] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[11:16:43] [Server thread/INFO]: Drakiii lost connection: Timed out
+[11:16:43] [Server thread/INFO]: Drakiii left the game
+[11:20:41] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:21:38] [User Authenticator #12/INFO]: UUID of player Drakiii is 127853c7-a9bb-3ebf-8c81-c3025b9ed859
+[11:21:42] [Server thread/INFO]: Drakiii joined the game
+[11:21:42] [Server thread/INFO]: Drakiii[/172.17.0.1:48240] logged in with entity id 31817 at ([world]-113.06151305936606, 66.84375002384186, -131.4502697305767)
+[11:21:59] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:22:57] [Server thread/INFO]: theHULK issued server command: /tp Drakiii theHULK
+[11:22:57] [Server thread/INFO]: [theHULK: Teleported Drakiii to theHULK]
+[11:24:02] [Server thread/INFO]: theHULK issued server command: /time set day
+[11:24:02] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[11:34:48] [Server thread/INFO]: theHULK issued server command: /effect give Drakiii minecraft:night_vision infinite
+[11:34:48] [Server thread/INFO]: [theHULK: Applied effect Night Vision to Drakiii]
+[11:35:05] [Server thread/INFO]: theHULK issued server command: /time set day
+[11:35:05] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[11:39:08] [Server thread/INFO]: theHULK issued server command: /tp Drakiii theHULK
+[11:39:08] [Server thread/INFO]: [theHULK: Teleported Drakiii to theHULK]
+[11:39:18] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:41:54] [Server thread/INFO]: theHULK issued server command: /weather clear
+[11:41:54] [Server thread/INFO]: [theHULK: Set the weather to clear]
+[11:43:41] [Server thread/INFO]: theHULK issued server command: /gamemode spectator Drakiii
+[11:43:41] [Server thread/INFO]: [theHULK: Set Drakiii's game mode to Spectator Mode]
+[11:44:12] [Server thread/INFO]: theHULK issued server command: /tp Drakiii theHULK
+[11:44:12] [Server thread/INFO]: [theHULK: Teleported Drakiii to theHULK]
+[11:45:06] [Server thread/INFO]: theHULK issued server command: /time set day
+[11:45:06] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[11:45:33] [Server thread/INFO]: theHULK issued server command: /tp Drakiii bankaionma772
+[11:45:33] [Server thread/INFO]: [theHULK: Teleported Drakiii to bankaionma772]
+[11:45:41] [Server thread/INFO]: theHULK issued server command: /gamemode survival Drakiii
+[11:45:41] [Server thread/INFO]: [theHULK: Set Drakiii's game mode to Survival Mode]
+[11:46:24] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:47:54] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:48:42] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:49:30] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:49:58] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:50:47] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:51:14] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:54:22] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:55:04] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:55:22] [Server thread/INFO]: theHULK issued server command: /time set day
+[11:55:22] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[11:57:02] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:57:15] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:58:52] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[11:59:06] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[11:59:47] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[12:00:08] [Server thread/INFO]: theHULK issued server command: /give Drakiii minecraft:lead
+[12:00:08] [Server thread/INFO]: [theHULK: Gave 1 [Lead] to Drakiii]
+[12:00:26] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[12:00:44] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[12:01:03] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[12:01:48] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[12:01:58] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[12:02:50] [Server thread/INFO]: [theHULK: Set own game mode to Creative Mode]
+[12:03:03] [Server thread/INFO]: [theHULK: Set own game mode to Survival Mode]
+[12:04:04] [Server thread/INFO]: bankaionma772 has made the advancement [Ol' Betsy]
+[12:05:47] [Server thread/INFO]: bankaionma772 has made the advancement [Who's the Pillager Now?]
+[12:06:17] [Server thread/INFO]: theHULK issued server command: /time set day
+[12:06:17] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[12:06:24] [Server thread/INFO]: bankaionma772 was shot by Pillager
+[12:06:41] [Server thread/INFO]: theHULK issued server command: /tp bankaionma772 theHULK
+[12:06:41] [Server thread/INFO]: [theHULK: Teleported bankaionma772 to theHULK]
+[12:08:20] [Server thread/WARN]: Horse (vehicle of Drakiii) moved wrongly! 0.2976825500388363
+[12:10:41] [Server thread/INFO]: bankaionma772 has made the advancement [You've Got a Friend in Me]
+[12:12:52] [Server thread/INFO]: theHULK has made the advancement [You've Got a Friend in Me]
+[12:13:20] [Server thread/INFO]: Drakiii has made the advancement [You've Got a Friend in Me]
+[12:16:25] [Server thread/INFO]: theHULK issued server command: /time set day
+[12:16:25] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[12:27:02] [Server thread/INFO]: theHULK issued server command: /time set day
+[12:27:02] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[12:30:19] [Server thread/INFO]: Drakiii lost connection: Disconnected
+[12:30:19] [Server thread/INFO]: Drakiii left the game
+[12:32:45] [Server thread/INFO]: bankaionma772 hit the ground too hard
+[12:32:46] [Server thread/INFO]: Attempt to teleport removed player bankaionma772 restricted
+[12:32:59] [Server thread/INFO]: theHULK issued server command: /tp bankaionma772 theHULK
+[12:32:59] [Server thread/INFO]: [theHULK: Teleported bankaionma772 to theHULK]
+[12:34:24] [Server thread/INFO]: theHULK issued server command: /weather clear
+[12:34:24] [Server thread/INFO]: [theHULK: Set the weather to clear]
+[12:34:35] [Server thread/INFO]: theHULK issued server command: /time set day
+[12:34:35] [Server thread/INFO]: [theHULK: Set the time to 1000]
+[12:36:41] [Server thread/INFO]: bankaionma772 hit the ground too hard
+[12:36:42] [Server thread/INFO]: Attempt to teleport removed player bankaionma772 restricted
+[12:36:51] [Server thread/INFO]: theHULK issued server command: /tp bankaionma772 theHULK
+[12:36:51] [Server thread/INFO]: [theHULK: Teleported bankaionma772 to theHULK]
+[12:42:14] [User Authenticator #13/INFO]: UUID of player bankaionma772 is 369f1b74-c3d9-33ca-9155-832c73689cd0
+[12:42:14] [Server thread/INFO]: bankaionma772 lost connection: You logged in from another location
+[12:42:14] [Server thread/INFO]: bankaionma772 left the game
+[12:42:15] [Server thread/INFO]: bankaionma772 joined the game
+[12:42:15] [Server thread/INFO]: bankaionma772[/172.17.0.1:39726] logged in with entity id 60023 at ([world]-513.9466682528405, 68.0, 5.768321604207283)
+[12:42:31] [Server thread/INFO]: theHULK issued server command: /give theHULK minecraft:oak_fence
+[12:42:31] [Server thread/INFO]: [theHULK: Gave 1 [Oak Fence] to theHULK]
+[12:43:49] [Server thread/INFO]: bankaionma772 lost connection: Disconnected
+[12:43:49] [Server thread/INFO]: bankaionma772 left the game
+[12:53:14] [Server thread/INFO]: theHULK lost connection: Disconnected
+[12:53:14] [Server thread/INFO]: theHULK left the game
+[12:54:22] [Server thread/INFO]: Stopping the server
+[12:54:22] [Server thread/INFO]: Stopping server
+[12:54:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.8.2
+[12:54:22] [Server thread/INFO]: Saving players
+[12:54:22] [Server thread/INFO]: Saving worlds
+[12:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:54:22] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:54:22] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:54:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:54:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
